@@ -1,4 +1,4 @@
-# Writing code to compete in [Battlesnake](http://play.battlesnake.com?utm_source=github&utm_medium=readme&utm_campaign=python_starter&utm_content=homepage)]
+# Writing code to compete in [Battlesnake](http://play.battlesnake.com?utm_source=github&utm_medium=readme&utm_campaign=python_starter&utm_content=homepage)
 
 ![patricia](https://user-images.githubusercontent.com/55568873/160972798-59400650-3b5d-465c-8e3d-7b908960f5f2.png)
 
