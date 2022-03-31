@@ -1,6 +1,6 @@
 import random
-from typing import List, Dict
-from scipy import spatial 
+#from typing import List, Dict
+#from scipy import spatial 
 from sklearn.neighbors import NearestNeighbors
 """
 This file can be a nice home for your Battlesnake's logic and helper functions.
@@ -174,9 +174,9 @@ def get_target_close(foods,my_head):
     tree = NearestNeighbors(n_neighbors = len(cordinates))
     tree = tree.fit(cordinates)
     results = tree.kneighbors([(my_head["x"],my_head["y"])])[1]
-    print(results)
+    #print(results)
     idx = results[0]
-    print(idx)
+    #print(idx)
     return foods[idx[0]]
 
 def move_to_target(our_moves, my_head, target):
